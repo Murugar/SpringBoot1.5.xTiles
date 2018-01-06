@@ -374,6 +374,16 @@ public class TreeApp
 		
 		theTree.insert(44, 44 + 0.9);
 		
+		Node found = theTree.find(12);
+		if(found != null)
+		{
+			System.out.print("Found: ");
+			found.displayNode();
+			System.out.print("\n");
+		}
+		else
+			System.out.print("Could not find node \n");
+		
 		theTree.displayTree();
 		
 	} 
