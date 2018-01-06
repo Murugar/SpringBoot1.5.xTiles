@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.iqmsoft.datastructures.TreeApp;
+import com.iqmsoft.datastructures.TreeHeapApp;
 
 
 
@@ -19,6 +20,10 @@ public class Application {
     	TreeApp a = new TreeApp();
     	
     	a.test();
+    	
+        TreeHeapApp a1 = new TreeHeapApp();
+    	
+    	a1.test();
     	
         
     }
