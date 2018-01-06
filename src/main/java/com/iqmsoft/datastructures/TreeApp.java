@@ -372,7 +372,7 @@ public class TreeApp
 		else
 			System.out.print("Could not delete \n");
 		
-		theTree.insert(30, 30 + 0.9);
+		theTree.insert(44, 44 + 0.9);
 		
 		theTree.displayTree();
 		
