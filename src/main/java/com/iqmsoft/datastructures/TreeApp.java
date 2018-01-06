@@ -386,6 +386,8 @@ public class TreeApp
 		
 		theTree.displayTree();
 		theTree.traverse(1);
+		theTree.traverse(2);
+		theTree.traverse(3);
 		
 	} 
 	
