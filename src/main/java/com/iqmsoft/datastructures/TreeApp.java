@@ -385,6 +385,7 @@ public class TreeApp
 			System.out.print("Could not find node \n");
 		
 		theTree.displayTree();
+		theTree.traverse(1);
 		
 	} 
 	
