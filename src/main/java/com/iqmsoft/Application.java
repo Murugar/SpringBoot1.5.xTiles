@@ -3,9 +3,11 @@ package com.iqmsoft;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.iqmsoft.datastructures.AllPathApp;
 import com.iqmsoft.datastructures.HashTableApp;
 import com.iqmsoft.datastructures.HeapApp;
 import com.iqmsoft.datastructures.HeapQueueApp;
+import com.iqmsoft.datastructures.RefGraphApp;
 import com.iqmsoft.datastructures.TreeApp;
 import com.iqmsoft.datastructures.TreeHashMapApp;
 import com.iqmsoft.datastructures.TreeHeapApp;
@@ -44,6 +46,14 @@ public class Application {
     	HeapQueueApp a6 = new HeapQueueApp();
     	
     	a6.test();
+    	
+    	RefGraphApp a7 = new RefGraphApp();
+    	
+    	a7.test();
+    	
+    	AllPathApp a8 = new AllPathApp();
+    	
+    	a8.test();
     	 
         
     }
