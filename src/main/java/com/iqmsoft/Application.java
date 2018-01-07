@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.iqmsoft.datastructures.HashTableApp;
+import com.iqmsoft.datastructures.HeapApp;
+import com.iqmsoft.datastructures.HeapQueueApp;
 import com.iqmsoft.datastructures.TreeApp;
 import com.iqmsoft.datastructures.TreeHashMapApp;
 import com.iqmsoft.datastructures.TreeHeapApp;
@@ -34,6 +36,15 @@ public class Application {
         HashTableApp a4 = new HashTableApp();
     	
     	a4.test();
+    	
+    	HeapApp a5 = new HeapApp();
+    	
+    	a5.test();
+    	
+    	HeapQueueApp a6 = new HeapQueueApp();
+    	
+    	a6.test();
+    	 
         
     }
 
