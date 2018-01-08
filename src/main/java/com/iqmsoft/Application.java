@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.iqmsoft.concurrency.CountDownLatchTest;
 import com.iqmsoft.concurrency.CyclicBarrierTest;
+import com.iqmsoft.concurrency.ExchangerTest;
 import com.iqmsoft.datastructures.AllPathApp;
 import com.iqmsoft.datastructures.HashTableApp;
 import com.iqmsoft.datastructures.HeapApp;
@@ -64,6 +65,11 @@ public class Application {
     	CountDownLatchTest cd1 = new CountDownLatchTest();
     	
     	cd1.test();
+    	
+    	ExchangerTest ex = new ExchangerTest();
+    	
+    	ex.test();
+    	
     	 
         
     }
