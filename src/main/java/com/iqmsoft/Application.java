@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.iqmsoft.concurrency.CountDownLatchTest;
 import com.iqmsoft.concurrency.CyclicBarrierTest;
 import com.iqmsoft.concurrency.ExchangerTest;
+import com.iqmsoft.concurrency.FutureTest;
 import com.iqmsoft.datastructures.AllPathApp;
 import com.iqmsoft.datastructures.HashTableApp;
 import com.iqmsoft.datastructures.HeapApp;
@@ -69,6 +70,10 @@ public class Application {
     	ExchangerTest ex = new ExchangerTest();
     	
     	ex.test();
+    	
+        FutureTest f = new FutureTest();
+    	
+    	f.test();
     	
     	 
         
