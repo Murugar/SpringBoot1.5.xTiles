@@ -3,6 +3,7 @@ package com.iqmsoft;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.iqmsoft.concurrency.CyclicBarrierTest;
 import com.iqmsoft.datastructures.AllPathApp;
 import com.iqmsoft.datastructures.HashTableApp;
 import com.iqmsoft.datastructures.HeapApp;
@@ -54,6 +55,10 @@ public class Application {
     	AllPathApp a8 = new AllPathApp();
     	
     	a8.test();
+    	
+    	CyclicBarrierTest cb = new CyclicBarrierTest();
+    	
+    	cb.test();
     	 
         
     }
