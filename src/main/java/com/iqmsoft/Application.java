@@ -7,6 +7,8 @@ import com.iqmsoft.concurrency.CountDownLatchTest;
 import com.iqmsoft.concurrency.CyclicBarrierTest;
 import com.iqmsoft.concurrency.ExchangerTest;
 import com.iqmsoft.concurrency.FutureTest;
+import com.iqmsoft.concurrency.LockTest;
+import com.iqmsoft.concurrency.SemaphoreTest;
 import com.iqmsoft.datastructures.AllPathApp;
 import com.iqmsoft.datastructures.HashTableApp;
 import com.iqmsoft.datastructures.HeapApp;
@@ -74,6 +76,13 @@ public class Application {
         FutureTest f = new FutureTest();
     	
     	f.test();
+    	
+        SemaphoreTest s = new SemaphoreTest();
+    	
+    	s.test();
+    	
+    	LockTest l = new LockTest();
+    	l.test();
     	
     	 
         
