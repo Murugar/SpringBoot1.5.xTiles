@@ -3,6 +3,7 @@ package com.iqmsoft;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.iqmsoft.concurrency.CountDownLatchTest;
 import com.iqmsoft.concurrency.CyclicBarrierTest;
 import com.iqmsoft.datastructures.AllPathApp;
 import com.iqmsoft.datastructures.HashTableApp;
@@ -59,6 +60,10 @@ public class Application {
     	CyclicBarrierTest cb = new CyclicBarrierTest();
     	
     	cb.test();
+    	
+    	CountDownLatchTest cd1 = new CountDownLatchTest();
+    	
+    	cd1.test();
     	 
         
     }
